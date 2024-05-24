@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="./reservation.css">
+</head>
+<body>
+    <header>
+        <h1>Reservation</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="reservation-form">
+            <h2>Make a Reservation</h2>
+            <form>
+                <label>Check-In Date:</label>
+                <input type="date" class="check-in-date" name="check-in-date" required><br><br>
+                <label for="check-out-date">Check-Out Date:</label>
+                <input type="date" class="check-out-date" name="check-out-date" required><br><br>
+                <label>Room Type:</label>
+                <select name="room-type" required>
+                    <option value="single">Single</option>
+                    <option value="double">Double</option>
+                    <option value="suite">Suite</option>
+                </select>
+                <section class="payment">
+                    <h2>Payment</h2>
+                    <p>Choose the method of payment that suits you : </p>
+                    <select >
+                        <option value="Visa">
+                            Visa
+                        </option>
+                        <option value="JawwalPay">
+                            JawwalPay
+                        </option>
+                        <option value="Cash">
+                            Cash
+                        </option>
+                    </select>
+                </section>
+                <br>
+                <h2>Add Services</h2>
+            <form>
+                <input type="checkbox"name="service-name" value="Resturant">Resturant<br>
+                <input type="checkbox"name="service-name" value="Dry Cleaning" required>Dry Cleaning<br>
+                <input type="checkbox"name="service-name" value="Parking" required>Parking<br>
+                <input type="checkbox"name="service-name" value="Fitness center" required>Fitness center<br><br>
+                <label for="service-description">Service Description:</label>
+                <textarea id="service-description" name="service-description" required></textarea><br>
+            </form>
+            <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>

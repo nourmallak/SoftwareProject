@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #008577;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+ .register {
+    background-color: #666;
+    padding: 10px;
+    text-align: center;
+    width:fit-content;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-decoration: none;
+}
+footer a{
+    background-color: #008577;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: large;
+    font-weight: 800;
+}
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.home {
+    background-color: #e0f2f1;
+    padding: 20px;
+}
+
+.services {
+    background-color: #d1f0ee;
+    padding: 20px;
+}
+
+.reservation {
+    background-color: #c7ecea;
+    padding: 20px;
+}
+
+.payment {
+    background-color: #b9ebe7;
+    padding: 20px;
+}
